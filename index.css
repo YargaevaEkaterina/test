@@ -1,0 +1,32 @@
+body{
+    font-family: Inter;
+    background-color: #ffe2ef;
+    color: #4177b5;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    left: -11px;
+    background-color: #E0E4EB;
+    padding-right: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #ABB0BA;
+    border-radius: 4px;
+  }
+
+  header{
+    background-color: white;
+    margin: -7px -7px 0px -7px;
+    height: 82px;
+  }
+  
+  table {
+    width: 529px;
+    height: 315px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 3px;
+ }
+ td {
+  border: 2px solid rgb(255, 255, 255);}
