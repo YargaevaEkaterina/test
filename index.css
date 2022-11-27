@@ -1,43 +1,190 @@
 body {
   display: grid;
   font-family: Inter;
+  font-style: normal;
   place-items: center;
-  background-color: #ffe2ef;
-  color: #4177b5;
+  background: linear-gradient(#ffe9e9, #f2d9ff);
+  color: #722ead;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  margin-left: 5%;
+  gap: 15px;
+  grid-template-rows: repeat(6, min-content);
+  cursor: url(assets/images/bear.gif), default;
 }
 
-.container {
-  display: grid;
-  grid-template-rows: auto;
-}
-
-div {
-  display: grid;
-}
-
-.bio {
-  display: grid;
-  grid-template-columns: auto;
-}
-
-h1 {
+h2 {
   text-align: center;
 }
 
-p {
-  text-align: left;
+hr {
+  width: 630px;
+  height: 4px;
+  background: #670079;
+  border-style: hidden;
 }
+
+ul {
+  margin-bottom: 30px;
+  list-style-image: url(assets/images/chat.png);
+}
+
+table {
+  width: 580px;
+  position: relative;
+  left: 15px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border-collapse: collapse;
+  background-color: rgba(234, 235, 255, 0.86);
+}
+
+td {
+  padding: 10px;
+  border-style: solid;
+  border-color: #f3f0ffd0;
+}
+
+
+ul {
+  width: 520px;
+  text-align: justify;
+  position: relative;
+  left: 20px;
+}
+
+a {
+  color: #9f26f0;
+  cursor: url(assets/images/cake.gif), pointer;
+}
+
+a:visited {
+  color: rgb(178, 10, 173);
+}
+
+#textCenter {
+  text-align: center;
+}
+
+.headerme {
+  display: grid;
+  grid-template-areas:
+    "icon fio"
+    "icon job"
+    "line line";
+}
+
+#hr-1 {
+  grid-area: line;
+  position: relative;
+  top: -20px;
+}
+
+#me {
+  grid-area: fio;
+}
+
+#job {
+  grid-area: job;
+  position: relative;
+  top: -20px;
+}
+
 
 .iconme {
   width: 96px;
   height: 91px;
   background: url(assets/images/me.jpg);
   border-radius: 10px;
+  grid-area: icon;
+  position: relative;
+  left: 95px;
+  top: 15px;
+  border-style: solid;
+  border-color: #670079;
 }
 
-hr {
-  width: 614px;
-  height: 3px;
-  left: 413px;
-  background: #000000;
+.bio,
+.certificate,
+.exp {
+  background: linear-gradient(#f8ffebaf, #ffe6fed0);
+  margin-right: 21%;
+  margin-left: 21%;
+  width: 610px;
+  border-radius: 3px;
+}
+
+.cert {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  gap: 10px;
+}
+
+.sql,
+.html {
+  width: 279px;
+  height: 191px;
+  filter: drop-shadow(0px 4px 4px rgba(101, 204, 255, 0.487));
+  border-radius: 3px;
+  position: relative;
+  left: 20px;
+  margin-bottom: 35px;
+}
+
+.sql {
+  background: url(assets/images/sql.png);
+}
+
+.html {
+  background: url(assets/images/html.png);
+}
+
+.conts {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 10px;
+}
+
+.tools {
+  width: 610px;
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  margin-bottom: 20px;
+}
+
+.postman {
+  width: 72px;
+  height: 66px;
+  background: url(assets/images/postman.png);
+}
+
+.idea {
+  width: 62px;
+  height: 62px;
+  background: url(assets/images/idea.png);
+}
+
+.figma {
+  width: 38px;
+  height: 59px;
+  background: url(assets/images/figma.png);
+}
+
+.conf {
+  width: 58px;
+  height: 59px;
+  background: url(assets/images/conf.png);
+}
+
+.slack {
+  width: 60px;
+  height: 59px;
+  background: url(assets/images/slack.png);
+}
+
+.asana {
+  width: 169px;
+  height: 34px;
+  margin-top: 10px;
+  background: url(assets/images/asana.png);
 }
