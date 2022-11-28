@@ -45,6 +45,9 @@ td {
   border-color: #f3f0ffd0;
 }
 
+#textCenter {
+  text-align: center;
+}
 
 ul {
   width: 520px;
@@ -60,10 +63,6 @@ a {
 
 a:visited {
   color: rgb(178, 10, 173);
-}
-
-#textCenter {
-  text-align: center;
 }
 
 .headerme {
