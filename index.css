@@ -17,6 +17,8 @@ h2 {
   text-align: center;
 }
 
+h3{text-align: center;}
+
 hr {
   width: 630px;
   height: 4px;
@@ -186,4 +188,8 @@ a:visited {
   height: 34px;
   margin-top: 10px;
   background: url(assets/images/asana.png);
+}
+
+#wishinput{
+  width: 600px;
 }
