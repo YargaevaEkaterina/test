@@ -13,14 +13,14 @@
         </div>
       <div class = "bio" name="facts">
         <h2 id = "facts-h2">Факты обо мне</h2>
-        <ul name="list">
-          <li>Я рисую в digital и traditional в стиле аниме, пиксель-арт и семи-реализм. 
+        <ul data-test-id="list__facts">
+          <li data-test-id="list__facts__item">Я рисую в digital и traditional в стиле аниме, пиксель-арт и семи-реализм. 
           Владею Photoshop, SAI 2, pixelstudio. <br> Мои работы можно посмотреть: <a href = "https://mettalby.tumblr.com">Tumblr</a></li>
-          <li>Умею делать 3D-модельки в стиле low-poly в Blender. Знакома с скульптингом, текстурированием, ретопологией и риггингом.</li>
-          <li>Делаю игры в unity, немного владею unreal engine. <br><a href = "https://ekaterinayargaeva.itch.io/lilith" name ="gamejam">Ссылочка на игру с gamejam</a></li>
-          <li>Анимирую в after effects, live2d, dragonbones, pixelstudio.</li>
-          <li>Создаю персонажей, потихоньку создаю прописанный мир. <br><a href = "https://toyhou.se/Mettalby/characters/folder:1502864">Toyhou.se с персонажами</a></li>
-          <li>А, ой, я еще уже месяц Junior QA в Kazanexpress! И год уже в компании)</li>
+          <li data-test-id="list__facts__item">Умею делать 3D-модельки в стиле low-poly в Blender. Знакома с скульптингом, текстурированием, ретопологией и риггингом.</li>
+          <li data-test-id="list__facts__item">Делаю игры в unity, немного владею unreal engine. <br><a href = "https://ekaterinayargaeva.itch.io/lilith" name ="gamejam">Ссылочка на игру с gamejam</a></li>
+          <li data-test-id="list__facts__item">Анимирую в after effects, live2d, dragonbones, pixelstudio.</li>
+          <li data-test-id="list__facts__item">Создаю персонажей, потихоньку создаю прописанный мир. <br><a href = "https://toyhou.se/Mettalby/characters/folder:1502864">Toyhou.se с персонажами</a></li>
+          <li data-test-id="list__facts__item">А, ой, я еще уже месяц Junior QA в Kazanexpress! И год уже в компании)</li>
          </ul>
       </div>
         <h2 name="can-work">Я умею работать с:</h2>
@@ -33,25 +33,25 @@
         <div class = "asana"></div>
       </div>
       <div class = "certificate">
-        <h2>Мои сертификаты</h2>
+        <h2 data-test-id="text__my__certificats">Мои сертификаты</h2>
         <div class ="cert">
         <div class ="html"></div>
         <div class="sql"></div></div>
       </div>
       <div class = "exp">
         <h2>Опыт работы в ИТ</h2>
-        <table id = "exp-table">
-          <tr id="textCenter">
-            <td>Должность</td>
-            <td>Стаж</td>
-            <td>Обязанности</td>
+        <table data-test-id="table__work">
+          <tr data-test-id="table__work__row" id="textCenter">
+            <td data-test-id="table__work__column__job">Должность</td>
+            <td data-test-id="table__work__column__period">Стаж</td>
+            <td data-test-id="table__work__column__responsibilities">Обязанности</td>
           </tr>
-          <tr>
+          <tr data-test-id="table__work__row">
             <td>Специалистка тех. поддержки<br>3 линии</td>
             <td id="textCenter">1 год</td>
             <td>Помощь 1 линии поддержки в решении технических проблем клиентов, <br>написание SQL запросов, выгрузка данных из БД по запросу, <br>написание баг-репортов.</td>
           </tr>
-          <tr>
+          <tr data-test-id="table__work__row">
             <td>Junior QA Engineer</td>
             <td id="textCenter">1 месяц</td>
             <td>Тестирование WEB-приложения, составление тестовой документации, заведение баг-репортов.</td>
@@ -70,13 +70,13 @@
       <br>
       <input type="checkbox" id ="anonimcheck">Отправить анонимно
       <br>
-      <input type="submit" value="Отправить">
+      <input data-test-id="button__submit__wish" type="submit" value="Отправить">
     </div>
     <div class = "contacts">
       <hr id="hr-2">
       <h2>Связаться со мной</h2>
       <div class = "conts">
-        <p id="phone">Телефон: <a href ="Tel: 89600305620">+7 960 030-56-20</a></p>
+        <p id="phone">Телефон: <a data-test-id="link__contacts__phone" href ="Tel: 89600305620">+7 960 030-56-20</a></p>
         <p>Telegram: <a href="https://t.me/EkaterinaYargaeva">@EkaterinaYargaeva</a></p>
         <p>GitHub: <a href = "https://github.com/YargaevaEkaterina">YargaevaEkaterina</a></p>
       </div>
